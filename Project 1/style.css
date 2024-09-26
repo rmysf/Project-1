@@ -4,10 +4,11 @@ body {
     align-items: center;
     height: 100vh;
     margin: 0;
-    background-color: #f0f0f0;
+    background: url('Tech Website.jpg') no-repeat center center fixed;
+    background-size: cover;
 }
 
-.photo-container {
+.foto-container {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -17,45 +18,54 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: rgba(0, 0, 0, 0.3); /* Background dengan transparansi */
-    padding: 40px 20px;
+    background-color: rgba(31, 30, 30, 0.3);
+    padding: 80px 20px;
     border-radius: 10px;
     width: 300px;
 }
 
-.rounded-photo {
+.foto-profil {
     width: 150px;
     height: 150px;
-    border-radius: 50%;
+    border-radius: 50%; 
     object-fit: cover;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
+    background-color: #50dcf4;
+    transform: translateY(-30%);
 }
 
-.photo-name {
+.nama {
     font-size: 1.5em;
     font-weight: bold;
     color: white;
     margin-bottom: 10px;
+    transform: translateY(-200%);
 }
 
-.photo-bio {
+.paragraf {
     font-size: 1.1em;
     color: white;
     text-align: center;
     margin-bottom: 15px;
+    transform: translateY(-65%);
 }
 
 .social-links {
-    font-size: 1em;
+    font-size: 1.5em;
     text-align: center;
+    transform: translateY(60%);
 }
 
 .social-links a {
     color: white;
     text-decoration: none;
-    margin: 0 5px;
+    margin: 0 10px;
 }
 
 .social-links a:hover {
-    text-decoration: underline;
+    color: #00d9ff;
+}
+
+.social-links i {
+    margin-right: 5px;
 }
